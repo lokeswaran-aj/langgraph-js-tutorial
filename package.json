@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "ts-node",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -15,5 +15,12 @@
     "@types/node": "^22.8.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.11",
+    "@langchain/core": "^0.3.17",
+    "@langchain/langgraph": "^0.2.20",
+    "@langchain/openai": "^0.3.11",
+    "dotenv": "^16.4.5"
   }
 }
